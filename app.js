@@ -38,7 +38,7 @@ const renderFoodInfo = (food) => {
         if (food[`strIngredient${i}`]) {
             ingredients.push(`${food[`strIngredient${i}`]} - ${food[`strMeasure${i}`]}`);
         } else {
-            // Stop  there are no more ingredients
+            // Stop here there are no more ingredients
             break;
         }
     }
